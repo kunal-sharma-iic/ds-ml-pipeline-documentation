@@ -1,14 +1,11 @@
 <!-- docs/_sidebar.md -->
 
 
-* [HOME](./)
+* [DS ML Pipeline](./)
 
-* [Tutorials](./tutorials/index)
-  * [Tomcat](./tutorials/tomcat/index)
-  * [Cloud](./tutorials/cloud/index)
-  * [Java](./tutorials/java/index)
+* [Introduction](./Introduction/introduction)
+* [Installation](./Installation/installation)
 
-* [About](./about/index)
+* [Documentation](./documentation/documentation)
 
-* [Contact](./contact/index)
 
