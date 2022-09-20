@@ -16,6 +16,17 @@
       repo: 'https://github.com/Research-IIC/ds-pipeline-func-complete',
       loadSidebar: true,
     }
+    pages:
+  stage: deploy
+  script:
+  - mkdir .public
+  - cp -r * .public
+  - mv .public public
+  artifacts:
+    paths:
+    - public
+  only:
+  - master
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
 </body>
